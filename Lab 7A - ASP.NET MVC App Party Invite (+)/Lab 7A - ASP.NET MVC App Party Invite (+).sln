@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 7A - ASP.NET MVC App Party Invite (+)", "Lab 7A - ASP.NET MVC App Party Invite (+)\Lab 7A - ASP.NET MVC App Party Invite (+).csproj", "{230F9765-F420-41AD-92FC-1C777F2BAF86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230F9765-F420-41AD-92FC-1C777F2BAF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230F9765-F420-41AD-92FC-1C777F2BAF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230F9765-F420-41AD-92FC-1C777F2BAF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230F9765-F420-41AD-92FC-1C777F2BAF86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3BF50CB-069C-4E66-ADAE-5ACC8168171A}
+	EndGlobalSection
+EndGlobal

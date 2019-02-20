@@ -4,22 +4,23 @@ namespace Manipulating_Arrays
 {
     public class Rotating_Arrays
     {
-        public static string RotateArray(int[] X)
+        public static string RotateArray(int[] X,int cycles)
         {
             int[] y = new int[X.Length];
             string RotatedArray ="";
-            int temp = X[0];
-            for (int i = 1; i <X.Length-1; i++)
+            for (int i = 0; i > X.Length-1; i++)
             {
-                y[i] = X[i-1];
+                if (X[i + cycles] > X.Length)
+                {
+                    y[i] = X[i - X.Length - 1];
+                }
+                else
+                {
+                    y[i] = X[i + cycles];
+                }
                 RotatedArray += y[i] + ",";
             }
-                y[X.Length - 1] = temp;
-          
-            //foreach (int y in X)
-            //{
-            //    Console.WriteLine(y + " ");
-            //}
+                
             return RotatedArray;
         }        
     }
