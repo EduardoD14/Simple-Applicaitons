@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF3C7635-5606-4E21-BEFD-CB59F3DB0CF4}</ProjectGuid>
+    <ProjectGuid>{BD6BB3FE-F550-4297-8F91-60D55B18B96F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Manipulating_Arrays</RootNamespace>
-    <AssemblyName>Manipulating Arrays</AssemblyName>
+    <RootNamespace>Monte_Carlo_Method</RootNamespace>
+    <AssemblyName>Monte Carlo Method</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrays.cs" />
-    <Compile Include="ArryMean.cs" />
-    <Compile Include="CountArrayElements.cs" />
-    <Compile Include="Prints.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reversing Arrays.cs" />
-    <Compile Include="Rotating Arrays.cs" />
-    <Compile Include="Sorting Arrays.cs" />
-    <Compile Include="SumArrayElements.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

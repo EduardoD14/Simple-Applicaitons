@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Lab_7A___ASP.NET_MVC_App_Party_Invite____
+namespace PartyInvites
 {
     public class MvcApplication : System.Web.HttpApplication
     {
