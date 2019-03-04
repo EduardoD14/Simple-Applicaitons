@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="countdistinctwords.cs" />
+    <Compile Include="countlineswithtext.cs" />
+    <Compile Include="countwords.cs" />
+    <Compile Include="readassinglestring.cs" />
+    <Compile Include="countemptylinesclass.cs" />
+    <Compile Include="countlinesclass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="readasmultipleclass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
