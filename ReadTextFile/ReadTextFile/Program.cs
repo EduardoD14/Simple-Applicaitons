@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace ReadTextFile
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             // The files used in this example are created in the topic
             // How to: Write to a Text File. You can change the path and
@@ -42,6 +38,6 @@ namespace ReadTextFile
             {
                 Console.WriteLine("The file cannot be opened");
             }
-                }
+        }
     }
 }
