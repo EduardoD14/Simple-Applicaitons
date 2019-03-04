@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{F7B2F0D2-CEC8-4A14-AFA0-7AC0247C05F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFile", "ReadTextFile\ReadTextFile.csproj", "{B9BFC0F0-4A49-40EF-8188-20240F0CFAE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7B2F0D2-CEC8-4A14-AFA0-7AC0247C05F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7B2F0D2-CEC8-4A14-AFA0-7AC0247C05F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7B2F0D2-CEC8-4A14-AFA0-7AC0247C05F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7B2F0D2-CEC8-4A14-AFA0-7AC0247C05F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BFC0F0-4A49-40EF-8188-20240F0CFAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BFC0F0-4A49-40EF-8188-20240F0CFAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BFC0F0-4A49-40EF-8188-20240F0CFAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BFC0F0-4A49-40EF-8188-20240F0CFAE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2D88450E-2EEB-4ED6-A559-5EAADE4EBC8F}
+		SolutionGuid = {257D3BB9-CCDE-4F4C-A1E2-3D0F44BD240D}
 	EndGlobalSection
 EndGlobal
