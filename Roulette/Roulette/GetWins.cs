@@ -10,18 +10,16 @@ namespace Roulette
     {
         public static void GetWins(int i)
         {
-            //The first line checks if the number is 37 and returns the appropriate response for 00.
             if (i == 37)
             {
                 Console.Write($"The following bets win on 00:\nThe Straight Up win is 00.\n");
             }
-            //The next two lines work for the rest of the numbers
             else
             {
                 Console.Write($"The following bets win on {i}:\nThe Straight Up win is {i}.\n");
             }
             Console.Write($"The Split wins are: {SplitClass.Split(i)}.\n");
-            if (i > 0 && i < 37) //only non-zero numbers have these winning bets
+            if (i > 0 && i < 37)
             {
                 Console.Write($"The Street win is: ({StreetClass.Street(i)}).\n" +
                 $"The Corner wins are: {CornerClass.Corner(i)}.\n" +
@@ -34,9 +32,9 @@ namespace Roulette
             }
             if (i < 4 || i == 37)
             {
-                Console.Write($"The Basket bet wins (0, 00, 1, 2, 3).\n");//checks if the basket bet wins
+                Console.Write($"The Basket bet wins (0, 00, 1, 2, 3).\n");
             }
-            Console.WriteLine();//adds an extra line to seperate multiple spins
+            Console.WriteLine();
         }
     }
 }
