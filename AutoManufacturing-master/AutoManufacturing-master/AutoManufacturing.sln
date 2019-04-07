@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoManufacturing", "AutoManufacturing\AutoManufacturing.csproj", "{F4C6F911-A496-45DF-AF25-DBCA13643FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{A379C0EA-A40A-4E9C-AD0E-A5BEB8105370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C6F911-A496-45DF-AF25-DBCA13643FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C6F911-A496-45DF-AF25-DBCA13643FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C6F911-A496-45DF-AF25-DBCA13643FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C6F911-A496-45DF-AF25-DBCA13643FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A379C0EA-A40A-4E9C-AD0E-A5BEB8105370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A379C0EA-A40A-4E9C-AD0E-A5BEB8105370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A379C0EA-A40A-4E9C-AD0E-A5BEB8105370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A379C0EA-A40A-4E9C-AD0E-A5BEB8105370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01737E75-B72B-4FDF-AE4B-B43B4E0276C2}
+	EndGlobalSection
+EndGlobal
